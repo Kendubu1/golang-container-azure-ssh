@@ -1,4 +1,4 @@
-# golang Container w/ SSH Enabled on Azure App Service
+# Golang Container w/ SSH Enabled on Azure App Service | Proof of concept
 This sample leverages a startup script as the entrypoint. This script allows us to start the SSH service & golang container.
 
 ### Repository Modifications 
