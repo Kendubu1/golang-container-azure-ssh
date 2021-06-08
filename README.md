@@ -1,6 +1,8 @@
 # Golang Container w/ SSH Enabled on Azure App Service | Proof of concept
 This sample demonstrate the installation differences when installing SSH on Debian & Alpine base Linux distributions. A seperate startup script, sshd_config & dockerfile is used for each build & this sample leverages a startup script as the entrypoint
 
+GoLang Image Details: https://hub.docker.com/_/golang?tab=description&page=1&ordering=last_updated
+
 ### Repository Modifications 
 
 | Files             |  Content                                   |
