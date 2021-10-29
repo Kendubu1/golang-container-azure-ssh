@@ -20,7 +20,6 @@ Configure Custom Containers: https://docs.microsoft.com/en-us/azure/app-service/
 ```
 $ git clone -b alpine https://github.com/Kendubu1/golang-container-azure-ssh.git
 $ cd golang-container-azure-ssh
-$ mv Dockerfile_alp Dockerfile
 $ docker build -t <tag-name> .
 $ docker run -d -p 4000:80 <tag-name>
 ```
@@ -30,7 +29,6 @@ $ docker run -d -p 4000:80 <tag-name>
 ```
 $ git clone https://github.com/Kendubu1/golang-container-azure-ssh.git
 $ cd golang-container-azure-ssh
-$ mv Dockerfile_deb Dockerfile
 $ docker build -t <tag-name> .
 $ docker run -d -p 4000:80 <tag-name>
 ```
