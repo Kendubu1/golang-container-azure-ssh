@@ -6,7 +6,7 @@ RUN apt-get update \
   && echo "root:Docker!" | chpasswd
 
 #Copy SSH config file, startup script with 775 permissions
-COPY sshd_config_deb /etc/ssh/sshd_config_deb
+COPY sshd_config /etc/ssh/sshd_config
 COPY deb_start.sh /usr/local/bin/
 RUN chmod 755 /usr/local/bin/deb_start.sh
 #Create enviorment variable for our sshd_config
